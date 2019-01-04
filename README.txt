@@ -50,7 +50,14 @@ git log -p -1
 gitk
 
 // mostra apenas os códigos (enderços) dos commits
-git log --pretty=oneline
+git log --pretty=oneline 
 
+//edidanto o commit
+git --amend -m " "
 
+//remove os arquivos adicionados ao repositorio para serem commitados
+git reset HEAD nomedoarquivo.txt
+
+//descarta as mudanças feitas no seu arquivo adiionado no repositorio
+git checkout -- nomedoarquivo.txt
 

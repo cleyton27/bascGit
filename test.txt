@@ -1,0 +1,5 @@
+function somaNumero(n1, n2){
+	var n1=0, n2=2;
+	return n1+n2;
+}
+ testando as funcionalidades
