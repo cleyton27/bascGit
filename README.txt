@@ -28,10 +28,29 @@ git add .
 uma mensagem com o -m
 git commit -m "primeiro commit"
 
-// atalho para adicionar e commitar ao mesmo tempo
+// atalho para adicionar e commitar ao mesmo tempo (!só funciona para arquivos previamentes adiconados)
 git commit -am "commitando com atalho"
 
-git deff
+// informa o que foi adicionado ou removido no arquivo
+git giff
+
+// informa o que está pendente para o commit
+git giff --staged
+
+// mostra um historico de comites que foram feitos no repositorio
+git log
+
+// mostra o historico dos comites mais o diff de cada arquivo commitado
+git log -p
+
+// mostra a quantidade de commites feita mostrando o commit mais atual
+git log -p -1
+
+// mostra um relatorio de forma detalhada em uma interface grafica
+gitk
+
+// mostra apenas os códigos (enderços) dos commits
+git log --pretty=oneline
 
 
 
