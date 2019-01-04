@@ -64,6 +64,7 @@ git checkout -- nomedoarquivo.txt
 //quando o arquivo e removido do diretorio local ele tambem precisa ser removido do git
 git rm nomedoarquivo.txt
 
+<<<<<<< HEAD
 //adicona tagas no projeto
 git tag -a v1.0 -m" Versão 1.0"
 
@@ -75,3 +76,22 @@ git show v1.0
 
 // troca de branchs
 git checkout nomedabranch
+=======
+//adiciona tag no repositorio
+git tag -a v1.0 -m "Adiconando tag ao repositorio"
+
+//mostrando informações da tag
+git show v1.0
+
+//deletanto tag
+git tag -d v0.0  
+
+//cria uma branch
+git branch nomedabrench
+
+//alterna entre as branchs
+git checkout nomedabranch
+
+//cria e já troca para branch recem criada
+git checkout -b nomedabranch
+>>>>>>> test
