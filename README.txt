@@ -61,3 +61,6 @@ git reset HEAD nomedoarquivo.txt
 //descarta as mudanças feitas no seu arquivo adiionado no repositorio
 git checkout -- nomedoarquivo.txt
 
+//quando o arquivo e removido do diretorio local ele tambem precisa ser removido do git
+git rm nomedoarquivo.txt
+
