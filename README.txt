@@ -73,3 +73,5 @@ git tag -a v0.0 27518a7e709e7ca7cabd75c40c06fe2f99dcc22d -m"Versão 0.0"
 //mostrando detalhes da tag
 git show v1.0
 
+// troca de branchs
+git checkout nomedabranch
