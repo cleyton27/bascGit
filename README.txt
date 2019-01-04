@@ -64,3 +64,12 @@ git checkout -- nomedoarquivo.txt
 //quando o arquivo e removido do diretorio local ele tambem precisa ser removido do git
 git rm nomedoarquivo.txt
 
+//adicona tagas no projeto
+git tag -a v1.0 -m" Versão 1.0"
+
+// adiconando tag em um commite já existente
+git tag -a v0.0 27518a7e709e7ca7cabd75c40c06fe2f99dcc22d -m"Versão 0.0"
+
+//mostrando detalhes da tag
+git show v1.0
+
