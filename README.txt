@@ -4,7 +4,7 @@
 git config --global user.name "fulano de tal"
 
 //este comando atribui o email do usuraio no repositorio
-git config --global user.email "fulanodetal@gmail.com"
+git config --global user.email  "fulanodetal@gmail.com"
 
 //este comando cria um repositorio no diretorio
 git init
@@ -97,3 +97,9 @@ git checkout -b nomedabranch
 
 //traz as alteraçoes feitas em outras branchs para master
 git merge nomedabranch
+
+//copia os arquivos do repositorio remoto
+git clonse https://github.com/cleyton27/bascGit.git
+
+// baixa as atulizações feitas no repositorio remoto
+git pull orgin master
