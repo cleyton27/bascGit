@@ -53,7 +53,7 @@ gitk
 git log --pretty=oneline 
 
 //edidanto o commit
-git --amend -m " "
+git commit --amend -m " "
 
 //remove os arquivos adicionados ao repositorio para serem commitados
 git reset HEAD nomedoarquivo.txt
