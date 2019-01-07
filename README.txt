@@ -94,4 +94,6 @@ git checkout nomedabranch
 
 //cria e já troca para branch recem criada
 git checkout -b nomedabranch
->>>>>>> test
+
+//traz as alteraçoes feitas em outras branchs para master
+git merge nomedabranch
