@@ -4,7 +4,7 @@
 git config --global user.name "fulano de tal"
 
 //este comando atribui o email do usuraio no repositorio
-git config --global user.name "fulanodetal@gmail.com"
+git config --global user.email "fulanodetal@gmail.com"
 
 //este comando cria um repositorio no diretorio
 git init
